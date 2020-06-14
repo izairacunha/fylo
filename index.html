@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  <!--Fontes-->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <!--bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  
+</head>
+<body>
+ <!--HEADER-->
+  <header>
+    <ul class="nav justify-content-end">
+      
+      <li class="nav-item d-flex align-items-center">
+        <img id="img-logo" src="/images/logo.svg" alt="logo Fylo">
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#"> Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sign In</a>
+      </li>
+    </ul>
+  </header>
+   <!--MAIN-->
+  <main>
+    <div class="card container-fluid w-75 p-3 text-center" id="card-border" style="width: 18rem;">
+      <img class="card-img-top" src="/images/illustration-1.svg" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h1>All your files in one secure location, accessible anywhere.</h1>
+        <p class="card-text">Fylo stores your most important files in one secure location. 
+          Access them wherever you need, share and collaborate with friends, 
+          family, and co-workers.</p>
+      </div>
+    </div>
+
+        <form class="container w-75 p-3 text-center">
+      <div class="form-group">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email...">
+      </div>
+      <button type="submit" class="btn btn-primary w-100 p-3">Get Started</button>
+    </form>
+
+    <div class="card container-fluid w-75 p-3 text-center" id="card-border" style="width: 18rem;">
+      <img class="card-img-top" src="/images/illustration-2.svg" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h2>Stay productive, wherever you are</h2>
+        <p class="card-text">Never let location be an issue when accessing your files. Fylo has you 
+          covered for all of your file storage needs.</p>
+        <p>Securely share files and folders with friends, family and colleagues for 
+          live collaboration. No email attachments required!</p>
+      </div>
+    </div>
+
+    <div class="container text-center">
+      <a href="#">See how Fylo works</a>
+      <img src="/images/icon-arrow.svg" alt="arrow">
+    </div>
+    <div class="card container-fluid shadow p-3 mb-5 bg-white rounded" id="card-border" style="width: 18rem;">
+      <img class="card-img-top w-25 p-3" src="/images/icon-quotes.svg" alt="quotes">
+      <p class="card-text">Fylo has improved our team productivity by an order of magnitude. Since 
+        making the switch our team has become a well-oiled collaboration machine.</p>
+        <div class="media">
+          <img class="mr-3" src="/images/avatar-testimonial.jpg" alt="Imagem de exemplo genérica">
+          <div class="media-body">
+              <p class="mt-0"><strong>Kyle Burton</strong> </p>
+              <p class="mt-0">Founder & CEO, Huddle</p>
+          </div>
+        </div>      
+    </div>
+
+  <div class="container-fluid w-75 p-3 text-center text-lg-left">
+    <h4>Get early access today</h4>
+    <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
+      If you have any questions, our support team would be happy to help you.</p>
+      <form>
+        <div class="form-group">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email...">
+        </div>
+        <button type="submit" class="btn btn-primary w-100 p-3"> Get Started For Free</button>
+      </form>
+  </div>
+  </main>
+  <!--FOOTER-->
+  <footer class=" text-center">
+      <div class="contact container">
+       <img src="/images/logo - footer.svg" alt="Logo Fylo"> 
+     
+      <!--adicionar icones-->
+      <p>Phone: +1-543-123-4567</p>
+      <p>example@fylo.com</p>
+    </div>
+    <div class="container">
+      <p>About Us</p>
+      <p>Jobs</p>
+      <p>Press</p>
+      <p>Blog</p>
+    </div>
+    <div class="container">
+      <p>Contact Us</p>
+      <p>Terms</p>
+      <p>Privacy</p>
+    </div>
+    
+   
+
+    <p class="attribution container">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+  <!--bootstap-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+</body>
+</html>
